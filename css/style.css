@@ -1,0 +1,42 @@
+.company{
+    /* border: 8px solid rgb(163, 123, 123); */
+    height: 280px;
+}
+.team{
+    /* border: 15px solid red; */
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-left: 365px;
+    display: flex;
+    justify-content: space-between 
+}
+.member{
+    border: 0px solid rgb(41, 24, 24);
+    height: 383px;
+    width: 254px;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 3px;
+    background: rgb(255, 255, 255);
+}
+.member img {
+    height: 288px;
+    width: inherit;
+    object-fit: cover;
+    border-radius: inherit;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.member h1{
+    padding: 0px;  
+    margin-left: 10px;
+}
+.member span {
+    padding: 8px;
+    margin-left: 70px;
+}
+.topic{
+    text-align: center;
+    font-size: 60px ;
+}
+.centering {text-align: center;}
